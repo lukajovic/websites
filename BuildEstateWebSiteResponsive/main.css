@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background: #FFF url(./img/banner3.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 200px;
+}
+
+header>h2 {
+    padding: 50px 40px 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header>button {
+    display: block;
+    margin: 0 auto;
+    background: rgb(29, 111, 178);
+    border-radius: 30px;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 1px solid blue;
+}
+
+nav {
+    width: 90%;
+    margin: 20px auto;
+    margin-bottom: 60px;
+}
+
+nav>h1 {
+    text-align: center;
+    color: grey;
+    padding-bottom: 10px;
+}
+
+#logo {
+    border: 3px solid grey;
+    color: orange;
+    border-right: none;
+}
+
+nav>ul {
+    width: 100%;
+    background-color: rgb(129, 195, 245);
+    margin: 0 auto;
+    list-style-type: none;
+    min-height: 80px;
+    text-align: center;
+}
+
+nav>ul>li {
+    padding: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+main>h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+section>ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+section>h3 {
+    text-align: left;
+    color: rgb(39, 131, 173);
+    margin-bottom: 20px;
+}
+
+section p {
+    /* padding: 2%; */
+}
+
+main>section>ul>li {
+    margin-bottom: 10px;
+}
+
+section>img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+.first {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(129, 195, 245);
+    padding: 5%;
+    margin: 0 10px 15px 0;
+}
+
+#img1 {
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+    border: 2px white solid;
+    display: block;
+    padding: 0.5%;
+    float: left;
+    margin: 0 2%;
+}
+
+#ha2 {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+#Contact {
+    width: 100%;
+    min-height: 120px;
+    background-color: rgb(58, 221, 154);
+    color: white;
+    /* text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: none; */
+    padding: 2%;
+}
+
+.about {
+    width: 100%;
+}
+
+.Connect {
+    width: 100%;
+    min-height: 120px;
+    background-color: rgb(252, 82, 130);
+    color: white;
+}
+
+#Address {
+    width: 100%;
+    min-height: 100px;
+    background-color: rgb(55, 108, 228);
+}
+
+#mail {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+iframe {
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+#kucica {
+    width: 100%;
+    height: 220px;
+    background-color: rgb(129, 195, 245);
+    margin-bottom: 0;
+    background-image: url(./img/house.png);
+    background-repeat: no-repeat;
+    background-size: 300px 200px;
+    background-position: center;
+}
+
+.boxes {
+    width: 100%;
+    margin: 0 auto;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+#name {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    height: 10%;
+    padding-left: 15px;
+}
+
+#email {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    height: 10%;
+    padding-left: 15px;
+}
+
+#number {
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    height: 10%;
+    padding-left: 15px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.boxes>button {
+    display: block;
+    background-color: rgb(253, 151, 39);
+    color: white;
+    width: 25%;
+    height: 10%;
+    border: none;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+footer>ul>li {
+    display: inline;
+    padding: 5px;
+}
+
+footer>ul {
+    text-align: center;
+    width: 100%;
+    position: relative;
+    top: 60px;
+}
+
+footer {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+}
+
+#paragraf {
+    position: relative;
+    top: 80px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.first h3 {
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.first>p {
+    color: white;
+    margin-bottom: 0;
+    padding: 2%;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+#Contact h5 {
+    text-align: center;
+    display: block;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+#Address h5 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 20px;
+}
+
+#Address>p {
+    position: relative;
+    color: white;
+    top: 35px;
+    text-align: center;
+}
+
+.Connect h5 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+#Contact>p {
+    text-align: center;
+    display: block;
+}
+
+#stars {
+    color: white;
+    display: block;
+    size: 10px;
+}
+
+#emailslika {
+    width: 10px;
+    height: 10px;
+}
+
+#phoneslika {
+    width: 20px;
+    height: 20px;
+}
+
+#baneri>img {
+    width: 20px;
+    max-height: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+#baneri {
+    margin: 0 auto;
+    max-width: 172px;
+}
+
+#Contact>p>img {
+    width: 2%;
+}
+
+@media only screen and (min-width: 768px) {
+    nav h1 {
+        position: relative;
+        bottom: 350px;
+        right: 260px;
+        color: white;
+    }
+    header {
+        min-height: 350px;
+        
+    }
+    #logo {
+        border: 3px solid white;
+        color: orange;
+        border-right: none;
+    }
+
+    header h2 {
+        
+    }
